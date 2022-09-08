@@ -29,7 +29,7 @@ public class Employeee {
 	}
 
 	public void setSalary(double salary) {
-		salary = salary;
+		this.salary = salary;
 	}
 
 	public String getAddress() {
@@ -37,8 +37,9 @@ public class Employeee {
 	}
 
 	public void setAddress(String address) {
-		address = address;
+		this.address = address;
 	}
+	
 	
 	
 }
