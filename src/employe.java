@@ -1,5 +1,5 @@
 
-public class employee {
+public class employe {
       int i;
       public void vijay(int sal,int bonus) {
     	  i=sal+bonus;
