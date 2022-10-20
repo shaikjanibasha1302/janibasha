@@ -15,6 +15,15 @@ public class LinkedListExample {
 		
 		System.out.println(s);
 		
+		Iterator itr = s.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		Iterator i = s.descendingIterator();
+		while(i.hasNext()) {
+			System.out.println(i.next());
+		}
+		
 		
 		
 

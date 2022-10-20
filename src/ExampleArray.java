@@ -9,8 +9,11 @@ public class ExampleArray {
 		marks[3] = 96;
 		marks[4]= 93;
 		
-		for(int i=0; i<5; i++) {
-			System.out.println(marks[i]);
+//		for(int i=0; i<marks.length; i++) {
+//			System.out.println(marks[i]);
+//		}
+		for(int i: marks) {
+			System.out.println(i);
 		}
 
 	}

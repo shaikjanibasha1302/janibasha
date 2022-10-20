@@ -5,13 +5,13 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 
-public class Dboperations {
+public class DBOperation1 {
      Connection connection;
      Statement statement;
      ResultSet resultset;
      
 	
-	public Dboperations()
+	public DBOperation1()
 	{
 		connection = MySqlConnection.getInstance();
 	}
@@ -43,7 +43,7 @@ public class Dboperations {
 	
 	
 	public static void main(String[] args) {
-		Dboperations db = new Dboperations();
+		DBOperation1 db = new DBOperation1();
         Scanner sc = new Scanner(System.in);
         
         
